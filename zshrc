@@ -6,10 +6,3 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 if which rbenv &>/dev/null ; then
   eval "$(rbenv init - --no-rehash)"
 fi
-# alias tmux="TERM=screen-256color-bce tmux"
-
-# aliases
-[[ -f ~/.aliases ]] && source ~/.aliases
-
-# Local config
-[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
