@@ -15,6 +15,7 @@ set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
+set cursorline
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
@@ -73,7 +74,7 @@ if executable('ag')
 endif
 
 " Color scheme
-set t_Co=16
+set t_Co=256
 set background=dark
 colorscheme solarized
 
